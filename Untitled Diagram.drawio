@@ -1,11 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2021-08-19T12:32:16.730Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="_PD0sBHsVlgEBu6aSwdB" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-03T06:23:10.551Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="rTh4ZHnMsBMoXGr6NYsB" version="14.9.8" type="github">
   <diagram id="DzgCvhe-tKg0c6b0b9Ag" name="Page-1">
-    <mxGraphModel dx="1426" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1188" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3FnP7ytB5T22LVPL0JVN-1" value="一键登录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="90" width="120" height="60" as="geometry" />
+        <mxCell id="GTlOflzZMcrGwnV5eUsq-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3FnP7ytB5T22LVPL0JVN-1" target="GTlOflzZMcrGwnV5eUsq-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTlOflzZMcrGwnV5eUsq-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3FnP7ytB5T22LVPL0JVN-1" target="GTlOflzZMcrGwnV5eUsq-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3FnP7ytB5T22LVPL0JVN-1" value="5.0.2复盘" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="190" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTlOflzZMcrGwnV5eUsq-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GTlOflzZMcrGwnV5eUsq-1" target="GTlOflzZMcrGwnV5eUsq-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTlOflzZMcrGwnV5eUsq-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GTlOflzZMcrGwnV5eUsq-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GTlOflzZMcrGwnV5eUsq-1" value="短文朗读题型的跟读作答" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTlOflzZMcrGwnV5eUsq-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GTlOflzZMcrGwnV5eUsq-3" target="GTlOflzZMcrGwnV5eUsq-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTlOflzZMcrGwnV5eUsq-3" value="资源列表支持单词书入口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTlOflzZMcrGwnV5eUsq-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GTlOflzZMcrGwnV5eUsq-7" target="GTlOflzZMcrGwnV5eUsq-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTlOflzZMcrGwnV5eUsq-11" value="解决" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GTlOflzZMcrGwnV5eUsq-10">
+          <mxGeometry x="-0.075" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GTlOflzZMcrGwnV5eUsq-7" value="ios的video走了onSeek回调，再次设置paused开始播放，onProgress回调的进度不对，不是回调的seek的时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="40" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GTlOflzZMcrGwnV5eUsq-9" value="onseek保存seek时间，onprogress的时候根据条件过滤掉一次回调" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="45" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTlOflzZMcrGwnV5eUsq-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GTlOflzZMcrGwnV5eUsq-17" target="GTlOflzZMcrGwnV5eUsq-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTlOflzZMcrGwnV5eUsq-20" value="解决" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GTlOflzZMcrGwnV5eUsq-19">
+          <mxGeometry x="0.0212" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GTlOflzZMcrGwnV5eUsq-17" value="setState去renderVideo，马上调用seek，可能出现videoRef为null的情况导致seek不成功" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="140" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTlOflzZMcrGwnV5eUsq-18" value="&lt;span style=&quot;font-family: monospace , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; display: inline ; float: none ; background-color: rgb(255 , 255 , 255)&quot;&gt;componentDidUpdate里面根据条件调用seek&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="140" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTlOflzZMcrGwnV5eUsq-21" value="mpResource这个接口有可能拿到的url参数不全，这种需要app端手动拼接url" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="240" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
