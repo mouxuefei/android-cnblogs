@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2021-09-29T02:04:34.229Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" version="15.0.6" etag="TcdwbWoErMm7uZIJZ29t" type="github"><diagram id="6a0QL4xjN9BcG1-l5_8l">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-29T02:41:47.634Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="vjCcnwxCQTRxeecxd70P" version="15.0.6" type="github">
+  <diagram id="6a0QL4xjN9BcG1-l5_8l" name="Page-1">
+    <mxGraphModel dx="1426" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7lc9MhW9-fDCefB2C5w1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7lc9MhW9-fDCefB2C5w1-1" target="7lc9MhW9-fDCefB2C5w1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7lc9MhW9-fDCefB2C5w1-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7lc9MhW9-fDCefB2C5w1-1" target="7lc9MhW9-fDCefB2C5w1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7lc9MhW9-fDCefB2C5w1-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7lc9MhW9-fDCefB2C5w1-1" target="7lc9MhW9-fDCefB2C5w1-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7lc9MhW9-fDCefB2C5w1-1" value="5.3复盘" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7lc9MhW9-fDCefB2C5w1-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7lc9MhW9-fDCefB2C5w1-2" target="7lc9MhW9-fDCefB2C5w1-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7lc9MhW9-fDCefB2C5w1-2" value="支持AndroidPad" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="300" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7lc9MhW9-fDCefB2C5w1-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7lc9MhW9-fDCefB2C5w1-4" target="7lc9MhW9-fDCefB2C5w1-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7lc9MhW9-fDCefB2C5w1-4" value="android支持中等粗体大小" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="400" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7lc9MhW9-fDCefB2C5w1-8" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 14px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34; ; color: rgb(15 , 23 , 33)&quot;&gt;platfrom.os===&quot;pad&quot;=&amp;gt;DeviceInfo.isTablet()&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="507" y="300" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7lc9MhW9-fDCefB2C5w1-13" value="注" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7lc9MhW9-fDCefB2C5w1-10" target="7lc9MhW9-fDCefB2C5w1-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7lc9MhW9-fDCefB2C5w1-10" value="采用不同字体包实现fontFamliy（RobotoRegular,RobotoMedium,RobotoBold）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="507" y="400" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7lc9MhW9-fDCefB2C5w1-12" value="text嵌套text，如果都设置不同的fontFamliy会有问题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="400" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7lc9MhW9-fDCefB2C5w1-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7lc9MhW9-fDCefB2C5w1-14" target="7lc9MhW9-fDCefB2C5w1-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7lc9MhW9-fDCefB2C5w1-14" value="试卷展示html" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="510" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7lc9MhW9-fDCefB2C5w1-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7lc9MhW9-fDCefB2C5w1-18" target="7lc9MhW9-fDCefB2C5w1-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7lc9MhW9-fDCefB2C5w1-18" value="如果传入的html存在max-width:100%,图片就很小" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="510" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7lc9MhW9-fDCefB2C5w1-22" value="采用html组件替换htmlView组件，过滤掉max-width属性&lt;br&gt;&amp;lt;HTML&amp;nbsp; source={{&amp;nbsp; html: htmlOption,&amp;nbsp; }}&amp;nbsp; containerStyle={webViewStyle}&amp;nbsp; ignoredStyles={[&#39;max-width&#39;]}&amp;nbsp; /&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="777" y="495" width="230" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
