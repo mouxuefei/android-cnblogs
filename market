@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-30T03:40:30.180Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="1fpHFhGZYEIpUOaH_WUU" version="15.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-30T03:52:44.869Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="Te674RsGzfCFpDM07VS3" version="15.3.7" type="github">
   <diagram id="Auf0XxUJAGfbOKJa50Q-" name="Page-1">
-    <mxGraphModel dx="1426" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2253" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,7 +9,7 @@
         </mxCell>
         <mxCell id="dpua33DL5k33D8DtzvBH-11" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dpua33DL5k33D8DtzvBH-10">
           <mxGeometry x="0.3778" relative="1" as="geometry">
-            <mxPoint x="-17" y="20" as="offset" />
+            <mxPoint x="-4" y="20" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dpua33DL5k33D8DtzvBH-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dpua33DL5k33D8DtzvBH-1" target="dpua33DL5k33D8DtzvBH-12">
@@ -110,6 +110,21 @@
         </mxCell>
         <mxCell id="dpua33DL5k33D8DtzvBH-29" value="跳转已安装应用市场" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="930" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-36" value="先调研所有的渠道包的appStore能否跳转" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-38" value="存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dpua33DL5k33D8DtzvBH-37" target="dpua33DL5k33D8DtzvBH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-40" value="不存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dpua33DL5k33D8DtzvBH-37" target="dpua33DL5k33D8DtzvBH-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-37" value="先判断手机上是否安装渠道包中的一个或者多个" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-39" value="原来的逻辑" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="440" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
