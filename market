@@ -1,1 +1,117 @@
-<mxfile host="app.diagrams.net" modified="2021-09-30T03:20:25.693Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" version="15.3.7" etag="nPN-z5cb6G7e0zx40wCa" type="github"><diagram id="Auf0XxUJAGfbOKJa50Q-">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-30T03:40:30.180Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="1fpHFhGZYEIpUOaH_WUU" version="15.3.7" type="github">
+  <diagram id="Auf0XxUJAGfbOKJa50Q-" name="Page-1">
+    <mxGraphModel dx="1426" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dpua33DL5k33D8DtzvBH-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dpua33DL5k33D8DtzvBH-1" target="dpua33DL5k33D8DtzvBH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-11" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dpua33DL5k33D8DtzvBH-10">
+          <mxGeometry x="0.3778" relative="1" as="geometry">
+            <mxPoint x="-17" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dpua33DL5k33D8DtzvBH-1" target="dpua33DL5k33D8DtzvBH-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-14" value="不是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dpua33DL5k33D8DtzvBH-13">
+          <mxGeometry x="-0.0636" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-1" value="判断对应的手机品牌appStore是否存在最新的app包" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="170" width="316" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-3" value="手机品牌在渠道包范围内" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dpua33DL5k33D8DtzvBH-2" target="dpua33DL5k33D8DtzvBH-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dpua33DL5k33D8DtzvBH-2" target="dpua33DL5k33D8DtzvBH-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-8" value="手机品牌不在渠道包范围内" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dpua33DL5k33D8DtzvBH-7">
+          <mxGeometry x="0.0146" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-2" value="获取当前手机品牌" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-16" value="存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dpua33DL5k33D8DtzvBH-6" target="dpua33DL5k33D8DtzvBH-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dpua33DL5k33D8DtzvBH-6" target="dpua33DL5k33D8DtzvBH-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-35" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dpua33DL5k33D8DtzvBH-18">
+          <mxGeometry x="-0.1149" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-6" value="判断是否安装非手机品牌的其他渠道的应用市场" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-9" value="直接跳转appstore" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="827" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-12" value="直接在app里面下载" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dpua33DL5k33D8DtzvBH-15" target="dpua33DL5k33D8DtzvBH-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-27" value="多个" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dpua33DL5k33D8DtzvBH-20">
+          <mxGeometry x="0.4889" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dpua33DL5k33D8DtzvBH-15" target="dpua33DL5k33D8DtzvBH-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-30" value="一个" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dpua33DL5k33D8DtzvBH-28">
+          <mxGeometry x="-0.0204" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-15" value="存在一个或者多个" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-17" value="直接在app里面下载" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dpua33DL5k33D8DtzvBH-19" target="dpua33DL5k33D8DtzvBH-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-23" value="如果存在相同的渠道" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dpua33DL5k33D8DtzvBH-22">
+          <mxGeometry x="-0.1205" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dpua33DL5k33D8DtzvBH-19" target="dpua33DL5k33D8DtzvBH-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-19" value="和当前app的渠道对比是否相同" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-21" value="跳转相同的appStore" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-25" value="跳转多个中任意一个市场" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-26" value="如果不存在相同" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="900" y="470" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dpua33DL5k33D8DtzvBH-29" value="跳转已安装应用市场" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
