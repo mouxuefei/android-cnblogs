@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.1.2">
+  <diagram name="第 1 页" id="u3ibGad_npbTcFga0BF5">
+    <mxGraphModel dx="864" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bOOwfFdtO-9Di09Ykit8-1" value="AndroidUI层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="280" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bOOwfFdtO-9Di09Ykit8-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bOOwfFdtO-9Di09Ykit8-2" target="bOOwfFdtO-9Di09Ykit8-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bOOwfFdtO-9Di09Ykit8-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bOOwfFdtO-9Di09Ykit8-2" target="bOOwfFdtO-9Di09Ykit8-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bOOwfFdtO-9Di09Ykit8-2" value="业务后端&lt;div&gt;&lt;div&gt;AI 辅助问诊接口&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;问诊状态管理接口&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;评分接口&amp;nbsp;&lt;/div&gt;&lt;div&gt;推送&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="354" y="340" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bOOwfFdtO-9Di09Ykit8-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bOOwfFdtO-9Di09Ykit8-5" target="bOOwfFdtO-9Di09Ykit8-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bOOwfFdtO-9Di09Ykit8-5" value="网易云信SDK&lt;div&gt;登录鉴权&lt;/div&gt;&lt;div&gt;消息收发&lt;/div&gt;&lt;div&gt;消息状态（已读/撤回）&lt;/div&gt;&lt;div&gt;消息推送&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="190" y="340" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bOOwfFdtO-9Di09Ykit8-7" value="AI层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="350" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bOOwfFdtO-9Di09Ykit8-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.367;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420.0000000000001" y="500" as="sourcePoint" />
+            <mxPoint x="419.99999999999994" y="468.96000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
